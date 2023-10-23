@@ -1,0 +1,15 @@
+{
+    "dev": {
+        "aws_region": "ap-south-1",
+        "django_settings": "dpsk_coding_club.settings",
+        "profile_name": "default",
+        "project_name": "dpsk_coding_club",
+        "runtime": "python3.9",
+        "s3_bucket": "zappa-nyrud4aft"
+
+        "vpc_config" : {
+            "SubnetIds": ["subnet-0ab825863a39d1ec0", "subnet-052b46dd929e433d6", "subnet-0983580c73facfc04"],
+            "SecurityGroupIds": [ "sg-025650f3aa3011d1f" ]
+        }
+    }
+}
